@@ -47,7 +47,7 @@ class Paciente(Resource):
             'idade': dados['idade']
         }
         pacientes.append(novo_paciente)
-        return novo_paciente, 200
+        return novo_paciente, 201
 
 
     def put(self, numero_prontuario):
